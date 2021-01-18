@@ -1,0 +1,241 @@
+*{
+	margin:0;padding:;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration:none;
+}
+
+/*header section*/
+.header{
+	width:100%;
+	padding:15px 0px;
+	background:#3b5999;
+	margin:0px 0px 0px;
+}
+.header .logo{
+	width:100%;
+
+}
+.header .logo p{
+	color:#fff;
+	font-weight:700;
+	font-size:40px;
+	margin:10px 0px 0px 50px;
+}
+.left-form .email-form{
+	color:#fff;
+	font-weight:500;
+	font-size:14px;
+
+} 
+.left-form{
+	margin-right:10px;
+	
+}
+.left-form .form-control{
+	border-radius:0px;
+	width:200px;
+	height:30px;
+}
+
+
+.middle-form .form-control{
+	border-radius:0px;
+	width:200px;
+	height:30px;
+
+}
+.middle-form  .password-form{
+	color:#fff;
+	font-weight:500;
+	font-size:14px;
+
+}
+.middle-form a{
+	color:#fff;
+	font-size:;
+	font-weight:;
+	text-transform:;
+}
+.end-button input{
+	margin:24px 0px 0px 20px;
+	width:70px;
+	background:#43669e;
+	border:.5px solid #1f4188;
+	border-radius:3px;
+	color:#fff;
+
+}
+
+
+/*header section ends*/
+
+/*main-section start*/
+.main-section{
+	width:100%;
+	text-align:center;
+	background:#EBEDF0;
+	padding:50px 0px;
+}
+.main-section .inner-main-div{
+	width:100%;
+	margin:20px 0px 0px;
+}
+.main-section .inner-main-div h1{
+	color:#343642;
+	font-size:40px;
+	font-weight:500;
+	text-transform:capitalize;
+	line-height:50px;
+	word-spacing:2px;
+}
+.main-section .inner-main-div p{
+	color:#4B4F56;
+	font-size:14px;
+	font-weight:500;
+	text-transform:capitalize;
+	line-height:24px;
+	word-spacing:2px;
+}
+.text-form{
+	width:50%;
+	margin:30px auto 10px;
+}
+.text-form .form-control{
+	margin-right:2px;
+	padding:10px;
+}
+.other-form{
+	width:50%;
+	margin:0px auto;
+}
+.form-control:focus{
+	border:1px solid red;
+}
+.other-form .form-control{
+	margin-bottom:10px;
+	padding:10px;
+}
+.date-of-birth-table{
+	width:50%;
+	margin:30px 60px 0px;
+}
+.date-of-birth-table h4{
+	color:#90949C;
+	font-size:20px;
+	font-weight:600;
+	text-transform:capitalize;
+	line-height:30px;
+	word-spacing:2px;
+}
+.date-of-birth-table  .date-of-birth{
+	margin-left:93px;
+}
+.date-of-birth-table select{
+	margin-left:5px;
+	padding:3px;
+}
+.gender{
+	width:50%;
+	text-align:left;
+	margin:30px 0px 0px 279px;
+}
+.gender h4{
+	color:#90949C;
+	font-size:20px;
+	font-weight:600;
+	text-transform:capitalize;
+	line-height:30px;
+	word-spacing:2px;
+}
+
+.gender .radio-section label{
+	
+   margin:0px 5px 0px ;
+}
+.gender .radio-section label:first-child{
+	margin-left:0px;
+}
+.form-group-two {
+	width:50%;
+	margin:10px auto;
+}
+.form-group-two  p{
+	text-align:left;
+}
+.form-group-two .form-control{
+	padding:10px;
+}
+.finishing{
+	width:40%;
+	margin:30px 25%;
+}
+.finishing p{
+	color:#999;
+	font-size:10px;
+	font-weight:300;
+	text-transform:capitalize;
+	line-height:20px;
+	text-align:left;
+
+}
+.finishing .btn-success{
+	margin-right:82%;
+	background:#6AA556;
+	border:1px solid #6AA556;
+	width:200px;
+}
+
+/*main section ends*/
+
+/*foteer section start here*/
+.footer{
+	width:100%;
+	padding:40px 0px;
+	background:#fff;
+	text-align:left;
+}
+.footer .top-footer{
+	width:100%;
+	text-align:left;
+	border-bottom:1px solid #999;
+
+}
+.footer .top-footer p a{
+	color:#999;
+	margin-right:10px;
+}
+.footer .top-footer p a:hover{
+	text-decoration:underline;
+}
+.final-footer{
+	width:100%;
+}
+.final-footer ul{
+	list-style:none;
+}
+.footer .final-footer{
+	width:100%;
+	text-align:left;
+	margin-left:-30px;
+}
+.footer .final-footer .child-1 a,.footer .final-footer .child-2 a,.footer .final-footer .child-3 a{
+	color:#999;
+	margin-right:8px;
+}
+.copyright p{
+	color:#737373;
+
+}
+
+/*footer section ends here*/
+
+
